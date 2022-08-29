@@ -9,6 +9,6 @@ namespace Projeto.Data.Dtos
         public string chapa { get; set; }
         public string Nome { get; set; }
         public int IdAgeCol { get; set; }
-         public int Nome { get; set; }
+        public string Nome { get; set; }        
     }
 }
