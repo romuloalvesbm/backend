@@ -11,6 +11,6 @@ namespace Projeto.Data.Dtos
         public int IdAgeCol { get; set; }
         public string Sobrenome { get; set; }   
         public string cidade { get; set; }
-        public string Estado { get; set; }
+        public string Estado2 { get; set; }
     }
 }
