@@ -12,5 +12,10 @@ namespace Projeto.Data.Dtos
         public string Sobrenome { get; set; }   
         public string cidade { get; set; }
         public string EstadoCivil { get; set; }
-    }
+
+        public void CalcularIdade()
+        {
+
+        }
+    }    
 }
