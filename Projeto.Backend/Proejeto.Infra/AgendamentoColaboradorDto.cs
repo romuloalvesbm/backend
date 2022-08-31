@@ -12,10 +12,11 @@ namespace Projeto.Data.Dtos
         public string Sobrenome { get; set; }   
         public string Cidade { get; set; }
         public string EstadoCivil { get; set; }
+        public int AnoNascimento { get; set; }
         public int Idade { get; set; }
         public void CalcularIdade()
         {
-
+            Idade = DateTime.Today.Year - AnoNascimento;
         }
     }    
 }
