@@ -14,9 +14,15 @@ namespace Projeto.Data.Dtos
         public string EstadoCivil { get; set; }
         public int AnoNascimento { get; set; }
         public int Idade { get; set; }
+        public string NomeCompleto { get; set; }
         public void CalcularIdade()
         {
             Idade = DateTime.Today.Year - AnoNascimento;
+        }
+        
+         public void NomePorExtenso()
+        {
+            NomeCompleto = Nome + " " + Sobrenome;
         }
     }    
 }
