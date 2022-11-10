@@ -22,7 +22,7 @@ namespace Projeto.Data.Dtos
         
          public void NomePorExtenso()
         {
-            NomeCompleto = Nome + " " + Sobrenome;
+            NomeCompleto = Nome + " de souza " + Sobrenome;
         }
     }    
 }
