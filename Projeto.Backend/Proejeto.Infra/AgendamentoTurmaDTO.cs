@@ -8,6 +8,7 @@ namespace Projeto.Data.Dtos
     {
         public int IdAgeTurma { get; set; }
         public string Evento { get; set; }
+        public string Region { get; set; }
         public string Sala { get; set; }
         public DateTime Data { get; set; }
         public TimeSpan HoraInicio { get; set; }
