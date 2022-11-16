@@ -19,7 +19,7 @@ namespace Projeto.Data.Dtos
 
         public void CalcularIdade()
         {
-            Idade2 = Idade2;
+            Idade1 = Idade2;
         }
     }
 }
