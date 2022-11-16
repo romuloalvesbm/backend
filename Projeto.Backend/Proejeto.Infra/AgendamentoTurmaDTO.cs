@@ -13,6 +13,7 @@ namespace Projeto.Data.Dtos
         public TimeSpan HoraInicio { get; set; }
         public TimeSpan HoraTermino { get; set; }
         public string Status { get; set; }
-        public int? TotalColaborador { get; set; }       
+        public int? TotalColaborador { get; set; }    
+        public int Idade1 { get; set; }
     }
 }
