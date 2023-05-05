@@ -6,6 +6,7 @@ namespace Projeto.Data.Dtos
 {
     public class AgendamentoTurmaDTO
     {
+        public string Cidade3 { get; set; }
         public int IdAgeTurma { get; set; }
         public string Evento { get; set; }
         public string Region { get; set; }
