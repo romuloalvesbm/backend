@@ -17,7 +17,6 @@ namespace Projeto.Data.Dtos
         public int? TotalColaborador { get; set; }
         public int Idade1 { get; set; }
         public int Idade2 { get; set; }
-        public int Estado { get; set; }
         public void CalcularIdade()
         {
             Idade2 = Idade2;
